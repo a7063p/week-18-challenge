@@ -20,13 +20,13 @@ router
 
 // /api/thoughts/<userId>/<thoughtId>
 router
-    .route('/:userId/:thoughtId')
+    .route('/user/:userId/thought/:thoughtId')
     .post(addReaction)
     .delete(removeThought);
 
 // /api/thoughts/<userId>/<thoughtId>/<reactionId>
 router
-.route('/:userId/:thoughtId/:reactionId')
+.route('/user/:userId/thought/:thoughtId/reaction/:reactionId')
 .delete(removeReaction);
 
 router

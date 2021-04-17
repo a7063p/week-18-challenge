@@ -92,8 +92,6 @@ const thoughtController = {
     })
   },
 
-
-
   // remove Thought
   removeThought({ params }, res) {
     Thought.findOneAndDelete({ _id: params.thoughtId })
@@ -119,7 +117,7 @@ const thoughtController = {
   // remove Reaction //look at this for comments with delete user........//
   removeReaction ({ params }, res ) {
     Thought.findOneAndUpdate(
-      { _id: params. thoughtId },
+      { _id: params.thoughtId },
       { $pull: { reactions: { reactionId: params.reactionId } } },
       { new: true }
     )
