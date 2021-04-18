@@ -4,8 +4,8 @@
   ## Description
 This is an API for a social network web application, where users can share their thoughts, react to firends' thoughts and create a friend list 
 
-  * Link for Screencastify video [Screencastify](https://guarded-reaches-64579.herokuapp.com/)      
-  * Link for MP4 format in the event Screencastify is blurry [MP4](https://guarded-reaches-64579.herokuapp.com/)    
+  * Link for Screencastify video [Screencastify](https://drive.google.com/file/d/1GeyBBrNITPFifAS0SzDerpT43H0TGcke/view?usp=sharing)      
+  * Link for MP4 format in the event Screencastify is blurry [MP4](https://drive.google.com/file/d/1esCMwLZSMOAC0Eys0XtAfuJ16J5Fve-c/view?usp=sharing)    
   * Link for GitHub Repository [GitHub](https://github.com/a7063p/week-18-challenge.git)  
 
 

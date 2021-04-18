@@ -47,7 +47,7 @@ const thoughtController = {
       { _id: params.thoughtId },
       { $push: { reactions: body } },
       { new: true }
-    )
+    )    
     .then(dbUserData => {
       if (!dbUserData) {
         res.status(404).json({ message: 'No user with this ID!' });
